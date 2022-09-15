@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lobster&family=Pacifico&family=Shadows+Into+Light&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 80px;
+	background-color:#262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 20%;
+	float: left;
+	line-height: 80px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;;
+	color:#fff;
+	letter-spacing: 2px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 0.025px;
+	font-size: 30px;
+	margin: 0 10px;
+	color:#fff;
+}
+nav a:hover{
+    text-decoration: none;
+	color: #FEC8D8;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 80px;
+	background-image: url(images/book2.png);
+	-webkit-background-size: cover;
+	background-image:url({{url_for('static',filename='images/bookbg.png')}})
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 350px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+.wrapper1 a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.wrapper1 a:hover{
+    background-color: black;
+    color: rgb(240, 238, 234);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+/* blockquote styling */
+
+blockquote {
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 2rem auto;
+  padding: .5rem;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Times', serif;
+  color: #505050;
+}
+
+blockquote::before {
+  content: '\201c';
+  top: 10px;
+  left: -45px;
+}
+
+blockquote::after {
+  content: '\201d';
+  bottom: -40px;
+}
+
+blockquote::before,
+blockquote::after {
+  font-size: 5.2em;
+  position: absolute;
+}
+
+blockquote cite {
+  display: block;
+  position: absolute;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.2;
+  color: #888;
+  top: 120%;
+  padding-left: 70px;
+}
+
+
+blockquote cite a {
+  color: #333;
+}
+
+blockquote cite a:hover {
+  color: #1785b5;
+}
+
+blockquote cite::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(images/photo.jpg) no-repeat 0 0;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.container{
+    padding-top:100px;
+}
+
+h1{
+    padding-bottom:30px;
+}
+
+.col-md-3{
+    padding-bottom:35px;
+}
+
+nav .current{
+    background-color:#686868;
+    padding:10px;
+}

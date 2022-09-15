@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lobster&family=Pacifico&family=Shadows+Into+Light&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+    height: 80px;
+	background-color:#262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 20%;
+	float: left;
+	line-height: 80px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;;
+	color:#fff;
+	letter-spacing: 2px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 0.025px;
+	font-size: 30px;
+	margin: 0 10px;
+	color:#fff;
+}
+nav a:hover{
+    text-decoration: none;
+	color: #FEC8D8;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url(images/bg2.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 300px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+.wrapper1 a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.wrapper1 a:hover{
+    background-color: black;
+    color: rgb(240, 238, 234);
+}
+
+.container{
+    padding-top:100px;
+}
+
+.btn{
+    background-color:#303030;
+    border: none;
+}
+
+.btn:hover{
+    background-color:#808080;
+    border: none;
+}
+
+.form-control{
+
+}
+
+h2{
+    padding-top:15px;
+}
+
+form{
+    padding-top:20px;
+}
+
+nav .current{
+    background-color:#686868;
+    padding:10px;
+}
